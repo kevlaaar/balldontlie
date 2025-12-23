@@ -21,3 +21,14 @@ dependencyResolutionManagement {
 
 rootProject.name = "balldontlie"
 include(":app")
+include(":core:common")
+include(":core:network")
+include(":core:database")
+include(":core:ui")
+include(":core:testing")
+include(":domain")
+include(":data")
+include(":feature:games")
+include(":feature:teams")
+include(":feature:players")
+include(":feature:favorites")
