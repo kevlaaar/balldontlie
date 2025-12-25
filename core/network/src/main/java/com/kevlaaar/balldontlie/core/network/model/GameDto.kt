@@ -1,4 +1,4 @@
-package com.kevlaaar.balldontlie.network.model
+package com.kevlaaar.balldontlie.core.network.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

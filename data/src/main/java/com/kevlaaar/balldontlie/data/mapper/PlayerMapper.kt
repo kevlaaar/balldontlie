@@ -1,7 +1,7 @@
 package com.kevlaaar.balldontlie.data.mapper
 
 import com.kevlaaar.baldontlie.domain.model.Player
-import com.kevlaaar.balldontlie.network.model.PlayerDto
+import com.kevlaaar.balldontlie.core.network.model.PlayerDto
 
 fun PlayerDto.toDomain(): Player {
     return Player(

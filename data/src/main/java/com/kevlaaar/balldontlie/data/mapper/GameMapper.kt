@@ -2,7 +2,7 @@ package com.kevlaaar.balldontlie.data.mapper
 
 import com.kevlaaar.baldontlie.domain.model.Game
 import com.kevlaaar.baldontlie.domain.model.GameStatus
-import com.kevlaaar.balldontlie.network.model.GameDto
+import com.kevlaaar.balldontlie.core.network.model.GameDto
 
 fun GameDto.toDomain(): Game {
     return Game(

@@ -1,9 +1,9 @@
-package com.kevlaaar.balldontlie.network.di
+package com.kevlaaar.balldontlie.core.network.di
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
-import com.kevlaaar.balldontlie.network.api.ApiConstants
-import com.kevlaaar.balldontlie.network.api.BallDontLieApi
-import com.kevlaaar.balldontlie.network.interceptor.AuthInterceptor
+import com.kevlaaar.balldontlie.core.network.api.ApiConstants
+import com.kevlaaar.balldontlie.core.network.api.BallDontLieApi
+import com.kevlaaar.balldontlie.core.network.interceptor.AuthInterceptor
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

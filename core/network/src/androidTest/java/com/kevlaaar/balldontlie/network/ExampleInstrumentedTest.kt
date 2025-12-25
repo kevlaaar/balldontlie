@@ -1,4 +1,4 @@
-package com.kevlaaar.balldontlie.network
+package com.kevlaaar.balldontlie.core.network
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.kevlaaar.balldontlie.network.test", appContext.packageName)
+        assertEquals("com.kevlaaar.balldontlie.core.network.test", appContext.packageName)
     }
 }

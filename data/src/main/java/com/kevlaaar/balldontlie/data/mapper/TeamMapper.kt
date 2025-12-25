@@ -1,7 +1,7 @@
 package com.kevlaaar.balldontlie.data.mapper
 
 import com.kevlaaar.baldontlie.domain.model.Team
-import com.kevlaaar.balldontlie.network.model.TeamDto
+import com.kevlaaar.balldontlie.core.network.model.TeamDto
 
 fun TeamDto.toDomain(): Team {
     return Team(

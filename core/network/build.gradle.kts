@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.kevlaaar.balldontlie.network"
+    namespace = "com.kevlaaar.balldontlie.core.network"
     compileSdk {
         version = release(36)
     }
@@ -41,11 +41,11 @@ dependencies {
     implementation(project(":core:common"))
 
     //Networking
-    implementation(libs.retrofit.core)
-    implementation(libs.retrofit.kotlin.serialization)
-    implementation(libs.okhttp.core)
-    implementation(libs.okhttp.logging)
-    implementation(libs.kotlinx.serialization.json)
+    api(libs.retrofit.core)
+    api(libs.retrofit.kotlin.serialization)
+    api(libs.okhttp.core)
+    api(libs.okhttp.logging)
+    api(libs.kotlinx.serialization.json)
 
     //Hilt
     implementation(libs.hilt.android)

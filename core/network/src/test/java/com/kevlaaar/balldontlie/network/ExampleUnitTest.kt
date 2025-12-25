@@ -1,4 +1,4 @@
-package com.kevlaaar.balldontlie.network
+package com.kevlaaar.balldontlie.core.network
 
 import org.junit.Test
 

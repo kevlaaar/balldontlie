@@ -1,8 +1,8 @@
-package com.kevlaaar.balldontlie.network.api
+package com.kevlaaar.balldontlie.core.network.api
 
-import com.kevlaaar.balldontlie.network.model.GamesResponse
-import com.kevlaaar.balldontlie.network.model.PlayersResponse
-import com.kevlaaar.balldontlie.network.model.TeamsResponse
+import com.kevlaaar.balldontlie.core.network.model.GamesResponse
+import com.kevlaaar.balldontlie.core.network.model.PlayersResponse
+import com.kevlaaar.balldontlie.core.network.model.TeamsResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

@@ -3,7 +3,7 @@ package com.kevlaaar.balldontlie.data.repository
 import com.kevlaaar.baldontlie.domain.model.Team
 import com.kevlaaar.baldontlie.domain.repository.TeamsRepository
 import com.kevlaaar.balldontlie.data.mapper.toDomain
-import com.kevlaaar.balldontlie.network.api.BallDontLieApi
+import com.kevlaaar.balldontlie.core.network.api.BallDontLieApi
 import javax.inject.Inject
 
 class TeamsRepositoryImpl @Inject constructor(
